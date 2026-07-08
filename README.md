@@ -20,7 +20,7 @@ git init
 git add .
 git commit -m "init: wangmeng 个人技能市场"
 git branch -M main
-git remote add origin https://github.com/wangmeng/wangmeng-skills.git
+git remote add origin https://github.com/wangmengjuly-max/wangmeng-skills.git
 git push -u origin main
 ```
 
@@ -32,7 +32,7 @@ git push -u origin main
 
 ```bash
 # 1. 添加你的市场（只需每台机器做一次）
-/plugin marketplace add wangmeng/wangmeng-skills
+/plugin marketplace add wangmengjuly-max/wangmeng-skills
 
 # 2. 安装技能
 /plugin install project-onboarding@wangmeng-skills
