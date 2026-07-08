@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "Rapid_projectAnalysis",
-      "source": "./plugins/Rapid_projectAnalysis",
+      "source": "./plugins/Rapid_projectAnalysis.md",
       "description": "快速理解并总结陌生代码仓库：缕清结构、技术栈、业务、目录职责与功能分块，并给出新功能落点指南。适合新入职或接手新项目时使用。",
       "category": "development"
     },
