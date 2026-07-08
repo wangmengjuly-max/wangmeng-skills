@@ -47,7 +47,7 @@ git push -u origin main
 
 两者都是通用工具，建议选 User scope。
 
-安装后当前会话即可使用，无需重启。在任意陌生项目目录里说「帮我梳理下这个项目」即可触发 `project-onboarding`；丢一份需求/PRD 文档并说「帮我分析一下这份需求」即可触发 `requirement-analysis`；丢一段读书 / 学习笔记并说「帮我校对 / 总结一下」即可触发 `study-notes`；也可显式点名让它用某个技能。
+安装后当前会话即可使用，无需重启。在任意陌生项目目录里说「帮我梳理下这个项目」即可触发 `Rapid_projectAnalysis`；丢一份需求/PRD 文档并说「帮我分析一下这份需求」即可触发 `requirement-analysis`；丢一段读书 / 学习笔记并说「帮我校对 / 总结一下」即可触发 `study-notes`；也可显式点名让它用某个技能。
 
 ## 三、更新技能
 
