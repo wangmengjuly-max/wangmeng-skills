@@ -35,7 +35,7 @@ git push -u origin main
 /plugin marketplace add wangmengjuly-max/wangmeng-skills
 
 # 2. 安装技能
-/plugin install project-onboarding@wangmeng-skills
+/plugin install Rapid_projectAnalysis@wangmeng-skills
 /plugin install requirement-analysis@wangmeng-skills
 /plugin install study-notes@wangmeng-skills
 ```
