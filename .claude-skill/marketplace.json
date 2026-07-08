@@ -1,3 +1,25 @@
 {
-  
+  {
+  "name": "wangmeng-skill",
+  "description": "wangmeng个人的Skill 市场合集",
+  "version": "1.0.0",
+  "author": "wangmengjuly-max",
+    "owner": {
+    "name": "wangmeng"
+  },
+  "skills": [
+    {
+      "name": "vue-project-quick-master",
+      "description": "快速总结 Vue/React 项目结构，生成 PROJECT_QUICK_GUIDE.md",
+      "path": "skills/vue-project-quick-master/SKILL.md",
+      "category": "development"
+    },
+    {
+      "name": "another-skill",
+      "description": "另一个技能的描述",
+      "path": "skills/another-skill/SKILL.md",
+      "category": "development"
+    }
+  ]
+}
 }
