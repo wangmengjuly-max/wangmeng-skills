@@ -15,7 +15,7 @@ wangmeng 的个人 Claude Code 技能市场（marketplace）。把仓库推到 G
 把本目录初始化为 git 仓库并推到 GitHub（建议仓库名就叫 `wangmeng-skills`）：
 
 ```bash
-cd wangmeng-skills
+cd wangmeng-plugins
 git init
 git add .
 git commit -m "init: wangmeng 个人技能市场"
@@ -37,7 +37,7 @@ git push -u origin main
 # 2. 安装技能
 /plugin install Rapid_projectAnalysis@wangmeng-skills
 /plugin install requirement-analysis@wangmeng-skills
-/plugin install study-notes@wangmeng-skills
+/plugin install study-notes@wangmeng-plugins
 ```
 
 安装时会让你选 **scope**：
