@@ -37,7 +37,7 @@ git push -u origin main
 # 2. 安装技能
 /plugin install Rapid_projectAnalysis@wangmeng-skills
 /plugin install requirement-analysis@wangmeng-skills
-/plugin install study-notes@wangmeng-plugins
+/plugin install study-notes@wangmeng-skills
 ```
 
 安装时会让你选 **scope**：
