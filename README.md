@@ -23,7 +23,6 @@ git branch -M main
 git remote add origin https://github.com/wangmengjuly-max/wangmeng-skills.git
 git push -u origin main
 ```
-
 > 私有仓库也可以，只要安装时所在机器的 git 能访问该仓库即可（SSH key 或 token 配好）。
 
 ## 二、在任意机器上安装使用
@@ -39,6 +38,15 @@ git push -u origin main
 /plugin install requirement-analysis@wangmeng-skills
 /plugin install study-notes@wangmeng-skills
 ```
+##  如果下载不了请检查marketplace.json 里面name字段
+
+```bash
+# 1.下载成功后 查看市场
+/plugin marketplace list
+# 2. 更改市场名字，移除旧市场，重新添加
+/plugin marketplace remove <当前显示的市场名>
+```
+/plugin marketplace list
 
 安装时会让你选 **scope**：
 
