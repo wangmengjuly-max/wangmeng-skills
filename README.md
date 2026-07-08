@@ -12,15 +12,15 @@ wangmeng 的个人 Claude Code 技能市场（marketplace）。把仓库推到 G
 
 ## 一、首次发布（只需做一次）
 
-把本目录初始化为 git 仓库并推到 GitHub（建议仓库名就叫 `longyi-skills`）：
+把本目录初始化为 git 仓库并推到 GitHub（建议仓库名就叫 `wangmeng-skills`）：
 
 ```bash
-cd longyi-skills
+cd wangmeng-skills
 git init
 git add .
-git commit -m "init: longyi 个人技能市场"
+git commit -m "init: wangmeng 个人技能市场"
 git branch -M main
-git remote add origin https://github.com/longyi-xw/longyi-skills.git
+git remote add origin https://github.com/wangmeng/wangmeng-skills.git
 git push -u origin main
 ```
 
@@ -32,12 +32,12 @@ git push -u origin main
 
 ```bash
 # 1. 添加你的市场（只需每台机器做一次）
-/plugin marketplace add longyi-xw/longyi-skills
+/plugin marketplace add wangmeng/wangmeng-skills
 
 # 2. 安装技能
-/plugin install project-onboarding@longyi-skills
-/plugin install requirement-analysis@longyi-skills
-/plugin install study-notes@longyi-skills
+/plugin install project-onboarding@wangmeng-skills
+/plugin install requirement-analysis@wangmeng-skills
+/plugin install study-notes@wangmeng-skills
 ```
 
 安装时会让你选 **scope**：
@@ -60,10 +60,10 @@ git add . && git commit -m "update: xxx" && git push
 各机器上刷新市场并重装即可拿到最新版（插件系统暂无自动更新）：
 
 ```bash
-/plugin marketplace update longyi-skills
-/plugin install project-onboarding@longyi-skills
-/plugin install requirement-analysis@longyi-skills
-/plugin install study-notes@longyi-skills
+/plugin marketplace update wangmeng-skills
+/plugin install project-onboarding@wangmeng-skills
+/plugin install requirement-analysis@wangmeng-skills
+/plugin install study-notes@wangmeng-skills
 ```
 
 ## 四、以后添加新技能
@@ -76,12 +76,12 @@ git add . && git commit -m "update: xxx" && git push
 4. 在根目录 `.claude-plugin/marketplace.json` 的 `plugins` 数组里追加一项
 5. 提交推送
 
-之后用 `/plugin install my-new-skill@longyi-skills` 即可安装。
+之后用 `/plugin install my-new-skill@wangmeng-skills` 即可安装。
 
 ## 目录结构
 
 ```
-longyi-skills/
+wangmeng-skills/
 ├── .claude-plugin/
 │   └── marketplace.json          # 市场清单：列出所有插件
 ├── plugins/
