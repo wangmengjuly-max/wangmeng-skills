@@ -10,14 +10,14 @@
   "skills": [
     {
       "name": "vue-project-quick-master",
-      "description": "快速总结 Vue/React 项目结构，生成 PROJECT_QUICK_GUIDE.md",
-      "path": "skills/vue-project-quick-master/SKILL.md",
+      "description": "快速理解并总结陌生代码仓库：缕清结构、技术栈、业务、目录职责与功能分块，并给出新功能落点指南。适合新入职或接手新项目时使用",
+      "source": "skills/vue-project-quick-master/SKILL.md",
       "category": "development"
     },
     {
       "name": "another-skill",
       "description": "另一个技能的描述",
-      "path": "skills/another-skill/SKILL.md",
+      "source": "skills/another-skill/SKILL.md",
       "category": "development"
     }
   ]
